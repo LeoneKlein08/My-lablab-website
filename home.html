@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Home| For my lablab</title>
+</head>
+
+<style>
+	{box-sizing: border-box;}
+
+body
+	{margin:0;
+	font-family: calligraphy;
+	color: white;
+	background: linear-gradient(to right, #3b005c, #160019);
+	min-height: 100vh;
+	border-right: 50px solid pink;
+	border-left: 50px solid pink;
+	}
+	
+	
+ /* TOP NAVIGATION */
+nav{backgroung: linear-gradient(to right,#5b087d,#2602f);
+text-align: center;
+pading: 18px;
+font-family: calligraphy;	
+}	
+
+nav {
+    background: #4b176b;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid ##4b176b;
+}
+
+nav a{ color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+font-size: 16px	
+}
+
+
+/* MAIN CONTENT */
+.home{
+text-align: center;
+padding-top:60px;
+padding-let:20px;
+padding-right:20px;
+}
+
+.home1{
+font-size:40px;
+color:#ffc4e1;
+margin-bottom:25px;
+
+}
+
+.description{
+max-width:850px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
+
+/* QUOTE */
+.quote{
+max-width:850px;
+margin: auto;
+font-size:20px;
+font-style:italic;
+line-height1.6;
+color:#eeeeee;
+}
+
+/* QUOTE */
+.bottom-message {
+margin-top: 120px;
+font-size: 18px;
+color: #dddddd;
+}
+
+/*MOVING HEARTS*/
+
+.heart {
+position: fixed;
+bottom: -50px;
+font-size: 35px;
+color: #ff4f9a;
+animation-name: floatHeart;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+pointer-events: none;
+}
+
+/* HEART POSITIONS */
+
+.heart1 {
+left: 15%;
+animation-delay: 0s;
+        }
+
+.heart2 {
+left: 35%;
+animation-delay: 1.5s;
+        }
+
+.heart3 {
+left: 55%;
+animation-delay: 3s;
+        }
+
+.heart4 {
+left: 75%;
+animation-delay: 4.5s;
+        }
+
+.heart5 {
+left: 90%;
+animation-delay: 2s;
+        }
+
+
+/* HEART ANIMATION*/
+
+@keyframes floatHeart {
+
+0% {
+bottom: -50px;
+opacity: 0;
+transform: translateX(0) scale(0.5);
+   }
+
+20% {
+opacity: 1;
+}
+
+50% {
+transform: translateX(40px) scale(1);
+}
+
+80% {
+opacity: 1;
+}
+
+100% {
+bottom: 100vh;
+opacity: 0;
+transform: translateX(-40px) scale(1.2);
+}
+}
+	
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+        <a href="home.html">🌷Home</a>
+        <a href="memories.html">🌷Memories</a>
+        <a href="gallery.html">🌷Gallery</a>
+        <a href="message.html">🌷Message</a>
+        <a href="reasons.html">🌷100Reasons</a>
+</nav>
+
+
+<!-- HOME PAGE -->
+<div class="home">
+
+<h1> Welcome, Lablab</h1>
+
+<p class="description">
+This website is for our memories in every month we spent
+together, and how we surpassed every problem we encountered.
+Through ups and downs, we're still together, always stronger.
+</p>
+
+
+<!-- QUOTE -->
+<p class="quote">
+"Love isn't about how many days or months you've been together,
+it's about how much you love each other every single day." 💕
+</p>
+
+
+<!-- BOTTOM MESSAGE -->
+<p class="bottom-message">
+Forever and Always, Yours ❤️
+</p>
+
+</div>
+
+<!--MOVING HEARTS-->
+<div class="heart heart1">♥</div>
+<div class="heart heart2">♥</div>
+<div class="heart heart3">♥</div>
+<div class="heart heart4">♥</div>
+<div class="heart heart5">♥</div>
+
+</body>
+</html>
